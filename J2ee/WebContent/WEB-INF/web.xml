@@ -80,5 +80,23 @@
 		<servlet-name>CookieServlet2</servlet-name>
 		<url-pattern>/CookieServlet2</url-pattern>
 	</servlet-mapping>
-	
+
+	<servlet>
+		<servlet-name>UrlServlet1</servlet-name>
+		<servlet-class>com.url_rewriting.UrlServlet1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UrlServlet1</servlet-name>
+		<url-pattern>/UrlServlet1</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UrlServlet2</servlet-name>
+		<servlet-class>com.url_rewriting.UrlServlet2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UrlServlet2</servlet-name>
+		<url-pattern>/UrlServlet2</url-pattern>
+	</servlet-mapping>
+
 </web-app>
